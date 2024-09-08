@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+    color: white;
+   
+}
+
+
+ul {
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+body {
+  background-image: url(images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+button {
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    background: rgb(0, 0, 0);
+    border: 0.5px solid white;
+}
+
+nav {
+    margin-top: 1rem;
+    position: fixed;
+    align-items: center;
+    color: white;
+    border: 0.3px solid white;
+    display: flex;
+    padding-right: 2rem;
+   
+    justify-content: space-between;
+    background:rgb(27, 27, 27);
+    width: 95%;
+    height: 6rem;
+    margin-left: 2.5rem;
+    padding-left: 2.7rem;
+    padding-right: 4rem;
+    font-size: 2.3rem;
+    padding-top: 0.5rem;
+    border-radius: 9px;
+    z-index: 9999;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+li:hover {
+    color: rgb(204, 137, 96);
+    cursor: pointer;
+}
+
+.section-one {
+    /* background-image: url(images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg); */
+    height: 100vh;
+    color: white;
+    padding-top: 5rem;
+}
+
+.hero-text-container {
+    font-size: 5rem;
+    position: relative;
+    top: 20rem;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hero-text-container button {
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    background: rgb(0, 0, 0);
+    border: 0.5px solid white;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    color: rgb(204, 137, 96);
+    
+}
+
+button:hover {
+    border: 0.5px solid rgb(204, 137, 96);
+   
+}
+
+.hero-text-container p {
+    font-size: 1.7rem;
+    
+}
+
+.bio-text-container {
+    font-size: 2.5rem;
+    width: 70%;
+    margin-left: 5rem;
+}
+
+
+.bio-text-container {
+    text-align: center;
+  margin: 0 auto;
+    
+}
+
+.bio-text-container button {
+    margin-top: 2rem;
+    padding: 1rem 6rem;
+}
+
+.section-two {
+    margin-top: -3rem;
+}
+
+
+
+
+div img {
+    width: 50%;
+}
+
+.project {
+    display: flex;
+   background: rgb(27, 27, 27);
+    border-radius: 11px;
+    width: 90%;
+    margin-left: 4%;
+    /* margin: 0 auto; */
+    margin-bottom: 2rem;
+
+}
+
+.project-text-container {
+    font-size: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0 auto;
+    margin-top: 4%;
+    text-align: center;
+    
+}
+
+.project-text-container p {
+    font-size: 2rem;
+    margin-top: 2rem;
+    
+    
+    text-align: center;
+}
+
+.section-three {
+    margin-top: 13rem;
+}
+
+.section-three h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: black;
+    padding-left: 5rem;
+    padding-right: 8rem;
+    font-size: 1.4rem;
+}
+
+
+
+
+@media (max-width:800px) {
+    html {
+        font-size: 50%;
+    }
+        
+}
+
+@media (max-width:500px){
+    html {
+        font-size: 40%;
+    }
+
+    nav ul {
+        display: none;
+    }
+    nav label {
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        border-radius: 0;
+        border: none;
+        border-bottom: 0.5px solid white;
+    }
+
+    .bio-text-container {
+        width: 80%;
+        margin-top: -13rem;
+    }
+
+    .project {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+
+    .project img {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .section-three h1 {
+        font-size: 3rem;
+    }
+}
+
