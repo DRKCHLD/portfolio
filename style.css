@@ -136,10 +136,10 @@ button:hover {
 /* Style the menu icon (hamburger) */
 #menu-icon {
     display: none;
-    font-size: 3rem;
+    font-size: 4rem;
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 0rem;
+    right: 2rem;
     cursor: pointer;
 }
 
@@ -282,7 +282,7 @@ div img {
     background-color: black;
     width: 50%;
     top: 6rem;
-    height: 30vh;
+    height: 22rem;
     right: 0;
     padding-right: 4%;
     padding-top: 2rem;
