@@ -84,6 +84,10 @@ li:hover {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 .section-one {
     /* background-image: url(images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg); */
     height: 100vh;
@@ -229,6 +233,7 @@ div img {
 }
 
 
+
 .project-text-container {
     font-size: 3rem;
     padding-left: 3rem;
@@ -255,7 +260,7 @@ div img {
     text-align: center;
     margin-bottom: 4rem;
     font-size: 4rem;
-    text-decoration: underline;
+   
 }
 
 .footer {
