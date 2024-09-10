@@ -282,13 +282,14 @@ div img {
     background-color: black;
     width: 50%;
     top: 6rem;
-    height: 40vh;
+    height: 30vh;
     right: 0;
     padding-right: 4%;
     padding-top: 2rem;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    transition: right 0.5s ease-in;
    }
   
 
