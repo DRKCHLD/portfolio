@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DRK STUDIOS</title>
+    <title>salaamii's portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <label for="Logo">salami</label>
-        <ul>
-            <li>myPortfolio</li>
-           <li> About</li>
-            <li>Contact Me</li>
-            </ul>
-    </nav>
 
+    <nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" id="menu-icon">&#9776;</label>
+        <ul id="menu">
+            <li><a href="https://github.com/salaamii?tab=repositories" target="_blank"></a>myGithub</li>
+            <li>About</li>
+            <li>Contact Me</li>
+        </ul>
+    </nav>
+    
+    
 
 
     <section class="section-one">
@@ -23,7 +26,7 @@
             <h3>Hi there! i am</h3>
             <h1> <span>Salami </span>Afeez</h1>
             <p>Frontend Engineer</p>
-            <button><a href="#">Check out my work</a></button>
+            <button><a href="#works">Check out my works</a></button>
         </div>
 
         
@@ -42,7 +45,7 @@
 
     </section>
 
-    <section class="section-three">
+    <section class="section-three" id="works">
          <h1>PROJECTS THAT I'VE WORKED ON</h1>
 
          <div class="project-container">
@@ -148,5 +151,7 @@
 
   
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
