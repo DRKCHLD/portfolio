@@ -1,7 +1,9 @@
 const hamburger = document.getElementById('menu-icon');
 const menu = document.getElementById('menu');
+const social = document.getElementById('social');
+const contact = document.getElementById('contact');
 
-hamburger.addEventListener('click', () => {
-    menu.classList.toggle('show');
-    
+
+contact.addEventListener ('click', () => {
+    social.classList.toggle ('show');
 })
